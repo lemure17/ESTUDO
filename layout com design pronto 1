@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div id="container">
+        <nav>
+            <ul>
+                <li>products</li>
+                <li>discounts</li>
+                <img src="imagens/diamond.svg" alt="#">
+                <li>our partners</li>
+                <li>about us</li>
+            </ul>
+        </nav>
+        
+        <div id="board">
+
+            <div id="header">
+
+                <h2>Products</h2>
+                <p>Affordable quality, every time.</p>
+
+            </div>
+
+            <div id="box">
+                <div class="article"> 
+                    
+                    <img src="imagens/ellipse_1.svg" alt="">
+                    <h1>MATTE</h1>
+                    <p>-------</p>
+                    <p>a subtle but elegant finish for low-touch and delicate surfaces</p>
+                    <a href="">EXPLORE</a>
+
+                </div>
+
+                <div class="article">
+                    
+                    <img src="imagens/ellipse_2.svg" alt="">
+                    <h1>SEMI-GLOSS</h1>
+                    <p>-------</p>
+                    <p>our signature finish for high-wear parts, details and surfaces</p>
+                    <a href="">EXPLORE</a>
+
+                </div>
+
+                <div class="article">
+
+                    <img src="imagens/ellipse_3.svg" alt="">
+                    <h1>HIGH-GLOSS</h1>
+                    <p>-------</p>
+                    <p>an eye-stopping shine best for metal and other smooth surfaces</p>
+                    <a href="">EXPLORE</a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+           <p>© GEM PAINT CO</p> 
+        </footer>
+
+    </div>
+</body>
+</html>
