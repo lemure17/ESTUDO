@@ -1,0 +1,56 @@
+/*header/nav bar/ hero */
+#hero{
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    color:#eaeaea;
+    width: 1440px;
+    height: 808px;
+    background-image: url(images/hero\ 2.png);
+
+}
+#nav-itens{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    margin: 4%;
+    
+}
+
+nav{
+    width: 1242px;
+    height: 46px;
+    display: flex;
+    margin: 1% 0%;
+    justify-content: space-between;
+}
+ 
+
+h2 {
+align-self: self-start;
+margin: 10%;
+margin-bottom: auto;
+width: 50px;
+height: 30px;
+font-size: 56px
+}
+
+#alert{
+    background-image: url(images/alert.png);
+    width: 1264px;
+    height: 280px;
+    text-decoration: white;
+    font: work sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*body com abas e produtos */
+
